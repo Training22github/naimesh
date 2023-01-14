@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="74.872">
+    <testcase classname="Feature to test the functionality of search for valid Data" name="User checks the search functionality" time="24.294">
+        <system-out><![CDATA[Given User opens the browser................................................passed
+Then User enters the "https://www.smartbazaar.co.uk/my-account/"............passed
+And User enters the search Data.............................................passed
+When User clicks on the search icon.........................................passed
+Then User verifies the search result........................................passed
+And User close the browser..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to test the functionality of search selection for valid Data" name="User checks the search selection functionality" time="26.676">
+        <system-out><![CDATA[Given User opens the browser................................................passed
+Then User enters the "https://www.smartbazaar.co.uk/my-account/"............passed
+And User enters the 'rice' Data.............................................passed
+When User clicks on the search icon.........................................passed
+And User selects the 'ASALI NAVARA RICE (1KG)' from the list................passed
+Then User verifies the 'ASALI NAVARA RICE (1KG)' result.....................passed
+And User close the browser..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to test the functionality of search selection for valid Data" name="User checks the search selection functionality 2" time="23.343">
+        <system-out><![CDATA[Given User opens the browser................................................passed
+Then User enters the "https://www.smartbazaar.co.uk/my-account/"............passed
+And User enters the 'flower' Data...........................................passed
+When User clicks on the search icon.........................................passed
+And User selects the 'CAULIFLOWER (EACH)' from the list.....................passed
+Then User verifies the 'CAULIFLOWER (EACH)' result..........................passed
+And User close the browser..................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
